@@ -52,7 +52,7 @@ export default App;
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `allowMultipleExpanded` | `boolean` | don't autocollapse items when expanding other items. |
-| `preExpanded` | `number[]` | array of number based on which items will be expanded on mount. (0 for the first item & so on) |
-| `expandAll` | `boolean` | all items will be expanded on mount |
+| `preExpanded` | `number[]` | array of number based on which items will be expanded on mount. (0 for the first item & so on). |
+| `expandAll` | `boolean` | all items will be expanded on mount. |
 
 
