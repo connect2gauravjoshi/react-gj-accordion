@@ -30,6 +30,7 @@ export default [
       external(),
       resolve(),
       terser(),
-    ]
+    ],
+    external: ['react', 'react-dom']
   }
 ];

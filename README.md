@@ -45,3 +45,14 @@ const App = () => {
 export default App;
 
 ```
+## API Summary
+
+#### Accordion
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `allowMultipleExpanded` | `boolean` | don't autocollapse items when expanding other items. |
+| `preExpanded` | `number[]` | array of number based on which items will be expanded on mount. (0 for the first item& so on) |
+| `expandAll` | `boolean` | all items will expand or close on mount |
+
+
